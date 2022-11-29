@@ -1,0 +1,97 @@
+:root {
+    --site-darkblue:#3C5180;
+    --site-lightgray:#A6B3BF;
+    --site-light-orange:#FEB272;
+	--site-light-yellow:#ffda6a;
+}
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color:var(--bs-dark);
+    margin:0;
+}
+.text-heavy {
+    font-weight:900;
+}
+.text-bold {
+    font-weight:bold;
+}
+.text-150-pct {
+    font-size:150%;
+}
+.text-110-pct {
+    font-size:110%;
+}
+.text-dark-blue {
+    color:var(--site-darkblue) !important;
+}
+.bg-dark-blue {
+    background-color:var(--site-darkblue);
+}
+.text-orange {
+    color:var(--bs-orange) !important;
+}
+.text-light-orange {
+    color:var(--site-light-orange) !important;
+}
+.text-yellow {
+	color:var(--bs-yellow) !important;
+}
+.text-light-yellow {
+	color:var(--site-light-yellow) !important;
+}
+.border-bottom-1px-gray {
+    border-bottom:1px solid var(--bs-gray);
+}
+.border-bottom-1px-lightgray {
+    border-bottom:1px solid var(--site-lightgray);
+}
+nav.navbar {
+    min-height:90px;
+}
+.bg-brand {
+    background-image: linear-gradient(to right, #222e49, #5064ae);
+}
+nav.navbar.bg-blur {
+    backdrop-filter: blur(10px);
+    background-color:rgba(255, 255, 255, .80);
+}
+header {
+    background-image: url(../img//2021-tax-forms-3.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:420px;
+}
+.lh-1_1 {
+    line-height:1.1rem;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer h5 {
+    text-transform:uppercase;
+}
+a.no-underline {
+    text-decoration:none;
+}
+a.no-underline:hover {
+    text-decoration:underline;
+}
+.text-underline {
+    text-decoration:underline;
+}
+.alert-brand {
+    background-color:#C8D1E5;
+    color:#222E49;
+}
+.text-brand {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.text-shadow-brand {
+    text-shadow: 0 0 8px #222e49;
+}
